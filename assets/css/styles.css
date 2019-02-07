@@ -1,7 +1,7 @@
 @import url('tachyons.css');
 @import url('inter.css');
 
-html{font-family: 'Inter', sans-serif;}
+html{font-family: 'Inter', sans-serif, Arial;}
 body{background-color: #000;}
 p{font-weight: 300;}
 a{text-decoration: none;}
@@ -40,6 +40,28 @@ hr{height:1px;border: none;}
 }
 .btn-multikino:hover{
   background-color: rgba(243, 0, 149, 1);
+}
+.btn-cinamon{
+  background-color: rgba(255, 58, 30, .8);
+  color: white;
+}
+.btn-cinamon:hover{
+  background-color: rgba(255, 58, 30, 1);
+}
+.btn-forumcinemas{
+  background-color: rgba(243, 186, 2, .8);
+  color: black;
+  font-weight: 500;
+}
+.btn-forumcinemas:hover{
+  background-color: rgba(243, 186, 2, 1);
+}
+.btn-white{
+  background-color: rgba(255, 255, 255, .8);
+  color: black;
+}
+.btn-white:hover{
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .input-select-location{
