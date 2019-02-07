@@ -1,0 +1,60 @@
+@import url('tachyons.css');
+@import url('inter.css');
+
+html{font-family: 'Inter', sans-serif;}
+body{background-color: #000;}
+p{font-weight: 300;}
+a{text-decoration: none;}
+hr{height:1px;border: none;}
+
+.bg-white-02{background-color: rgba( 255, 255, 255, .02 )}
+
+.hero{
+  background: url('../img/hero-bg.jpg') no-repeat center bottom;
+  background-size: 100% auto;
+  min-height: 400px;
+}
+
+.link-def{
+  color: rgba(215, 240, 24, 1);
+  border-bottom: 1px solid rgba(215, 240, 24, .6);
+  text-decoration: none;
+}
+.link-def:hover{
+  border-bottom: 1px solid rgba(215, 240, 24, 1);
+}
+.link-action{
+  color: rgba(215, 240, 24, 1);
+  border-bottom: 1px dotted rgba(215, 240, 24, .6);
+  text-decoration: none;
+}
+.link-action:hover{
+  border-bottom: 1px solid rgba(215, 240, 24, 1);
+  opacity: 1;
+  cursor: pointer;
+}
+
+.btn-multikino{
+  background-color: rgba(243, 0, 149, .8);
+  color: white;
+}
+.btn-multikino:hover{
+  background-color: rgba(243, 0, 149, 1);
+}
+
+.input-select-location{
+  background-image: url('../img/icn-expand-yellow.svg');
+  background-repeat: no-repeat;
+  background-position: right .25rem center;
+  padding-right: 2rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  color: rgba(215, 240, 24, 1);
+  background-color: #000;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+  border-radius: 0;
+}
+.input-select-location:hover{
+  cursor: pointer;
+}
